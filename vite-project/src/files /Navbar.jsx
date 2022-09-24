@@ -1,9 +1,10 @@
 import React from 'react'
+import logo from './logo.webp';
 
 const Navbar = () => {
   return (
     <div className='w-[100%] text-[white] min-h-[100px] lg:h-[50px] bg-[#2e3752] flex flex-col lg:flex-row items-start lg:items-center justify-center lg:justify-between p-[20px] space-y-[10px] lg:space-y-[0px] lg:p-[0] lg:px-[50px]'>
-        <i className="fas fa-bars"></i> 
+                <img src={ logo } alt="" srcset="" className='' />
         <p className='hidden lg:flex items-center space-x-[5.3px]'>
             <p className=''>
                 <i className="fal fa-cog text-[35px]"></i>
